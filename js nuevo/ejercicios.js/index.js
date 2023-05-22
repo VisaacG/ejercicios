@@ -1,32 +1,47 @@
-/* numbers */
-/* hallar el valor mayor de dos numeros */
-/* sumar, restar, multiplicar y dividir los siguientes nuemeros */
-let valor1 = prompt ('escribe el primer valor')
-let valor2= prompt('escribe el segundo valor')
+/* numbersxxxxx */
+/* hallar el valor mayor de dos numeros xxxx*/
+/* sumar, restar, multiplicar y dividir los siguientes nuemeros xxxx*/
+/* alert("hola")*/
+let valor1
+let valor2
+let valor3
+let valor4
+let valor5
+valor1 = prompt ('escribe el primer valor')
+valor2= prompt('escribe el segundo valor')
+valor3=prompt('escribe el tercer valor')
+valor4=prompt("primer numero")
+valor5=prompt("segundo numero")
 
-function sumar (a, b){
-    parseInt()
-    console.log(a + b)
-}
+        let suma = parseInt(valor1) + parseInt(valor2);
+        let restar= parseInt(valor1) - parseInt(valor2);
+        let producto = parseInt(valor1) * parseInt(valor2);
+        let division = parseInt(valor1) / parseInt(valor2);
+        let raiz = Math.sqrt(valor3)
+        let mayor= Math.max(valor4, valor5)
+document.write('La suma es ');
+document.write(suma);
+document.write("<br>")
+document.write("el valor es ")
+document.write(restar)
+document.write('<br>');
+document.write('El producto es ');
+document.write(producto);
+document.write("<br>")
+document.write("la division es ")
+document.write(division)
+document.write("<br>")
+document.write("la raiz es ")
+document.write(raiz)
+document.write("<br>")
+document.write("el numero mayor es ")
+document.write(mayor)
 
+/* calcular la raiz cuadrada de los numeros agregados xxxx*/
+/* 1 /* IDENTIFICA LA LONGITUS DE LA CADENA DE TEXTO A AGREGAR xxxx*/
 
-
-/* let valor1= 10
-let valor2= '20'
-
-let resultado1= valor1 + valor2
-let resultado2= valor1 - valor1
-let resultado3= valor2 * valor1
-let resultado4= valor2 / valor2
-console.log(resultado1)
-console.log(resultado2)
-console.log(resultado3)
-console.log(resultado4)
-let calcular= valor1 + Number(valor2)
-console.log(calcular) */
-/* calcular la raiz cuadrada de los numeros agregados */
-/* 1 /* DIDENTIFICAL LA LONGITUS DE LA CADENA DE TEXTOA AGREGAR */
 /* 2INVERTIR LA CADENA DE TEXTO   */
+
 /* 3 REPETIR TEXTO */
 
 
